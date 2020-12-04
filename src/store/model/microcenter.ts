@@ -79,18 +79,6 @@ for (const microCenterLocation of microCenterLocations) {
 				url: `https://www.microcenter.com/product/628686/asus-geforce-rtx-3080-strix-overclocked-triple-fan-10gb-gddr6x-pcie-40-graphics-card/?storeid=${storeId}`
 			},
 			{
-				brand: 'asus',
-				model: 'strix oc',
-				series: '3070',
-				url: `https://www.microcenter.com/product/630686/asus-geforce-rtx-3070-rog-strix-overclocked-dual-fan-8gb-gddr6-pcie-40-graphics-card/?storeid=${storeId}`
-			},
-			{
-				brand: 'asus',
-				model: 'tuf oc',
-				series: '3070',
-				url: `https://www.microcenter.com/product/630684/asus-geforce-rtx-3070-tuf-overclocked-triple-fan-8gb-gddr6-pcie-40-graphics-card/?storeid=${storeId}`
-			},
-			{
 				brand: 'msi',
 				model: 'gaming x trio',
 				series: '3080',
@@ -101,12 +89,6 @@ for (const microCenterLocation of microCenterLocations) {
 				model: 'xc3 black',
 				series: '3080',
 				url: `https://www.microcenter.com/product/628340/evga-geforce-rtx-3080-xc3-black-triple-fan-10gb-gddr6x-pcie-40-graphics-card/?storeid=${storeId}`
-			},
-			{
-				brand: 'evga',
-				model: 'xc3 black',
-				series: '3070',
-				url: `https://www.microcenter.com/product/630579/evga-geforce-rtx-3070-xc3-black-gaming-triple-fan-8gb-gddr6-pcie-40-graphics-card/?storeid=${storeId}`
 			},
 			{
 				brand: 'zotac',
@@ -137,6 +119,13 @@ for (const microCenterLocation of microCenterLocations) {
 				model: '5950x',
 				series: 'ryzen5950',
 				url: `https://www.microcenter.com/product/630282/amd-ryzen-9-5950x-vermeer-34ghz-16-core-am4-boxed-processor/?storeid=${storeId}`
+			}
+			,
+			{
+				brand: 'asus',
+				model: 'strix',
+				series: 'darkhero',
+				url: `https://www.microcenter.com/product/631349/asus-x570-rog-crosshair-viii-dark-hero-amd-am4-atx-motherboard/?storeid=${storeId}`
 			}
 		]);
 	}

@@ -34,10 +34,10 @@ export type Brand =
 
 export type Series =
 	| 'test:series'
-	| '3060ti'
 	| '3070'
 	| '3080'
 	| '3090'
+	| 'darkhero'
 	| 'rx6800'
 	| 'rx6800xt'
 	| 'rx6900xt'
@@ -94,7 +94,6 @@ export type Model =
 	| 'phoenix'
 	| 'ps5 console'
 	| 'ps5 digital'
-	| 'pulse'
 	| 'red devil'
 	| 'sg oc'
 	| 'sg'
@@ -179,7 +178,4 @@ export type Store = {
 	waitUntil?: LoadEvent;
 	minPageSleep?: number;
 	maxPageSleep?: number;
-
-	proxyList?: string[];
-	currentProxyIndex?: number;
 };

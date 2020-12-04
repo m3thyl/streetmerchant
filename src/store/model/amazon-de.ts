@@ -17,22 +17,16 @@ export const AmazonDe: Store = {
 		maxPrice: {
 			container: 'span[class*="PriceString"]',
 			euroFormat: true
-		},
-		outOfStock: [
-			{
-				container: '#availability',
-				text: ['Derzeit nicht verfügbar']
-			}
-		]
+		}
 	},
 	links: [
 		{
 			brand: 'test:brand',
 			cartUrl:
-				'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B07PW9VBK5&Quantity.1=1',
+				'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B083JX52VG&Quantity.1=1',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://www.amazon.de/dp/B07PW9VBK5'
+			url: 'https://www.amazon.de/dp/B083JX52VG'
 		},
 		{
 			brand: 'asus',
@@ -521,24 +515,6 @@ export const AmazonDe: Store = {
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url: 'https://www.amazon.de/dp/B08H98GVK8'
-		},
-		{
-			brand: 'microsoft',
-			// Disabled because of #1095
-			// cartUrl:
-			// 	'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B08H93ZRLL&Quantity.1=1',
-			model: 'xbox series x',
-			series: 'xboxsx',
-			url: 'https://www.amazon.de/dp/B08H93ZRLL'
-		},
-		{
-			brand: 'microsoft',
-			// Disabled because of #1095
-			// cartUrl:
-			// 	'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B087VM5XC6&Quantity.1=1',
-			model: 'xbox series s',
-			series: 'xboxss',
-			url: 'https://www.amazon.de/dp/B087VM5XC6'
 		}
 	],
 	name: 'amazon-de'

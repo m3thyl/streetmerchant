@@ -118,7 +118,6 @@ export const Print = {
 
 		return `ℹ ${buildProductString(link, store)} :: IN STOCK, WAITING`;
 	},
-	// eslint-disable-next-line max-params
 	maxPrice(
 		link: Link,
 		store: Store,

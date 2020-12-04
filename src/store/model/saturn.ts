@@ -1,45 +1,26 @@
 import {Store} from './store';
 
 export const Saturn: Store = {
-	backoffStatusCodes: [403, 429, 503],
 	labels: {
 		captcha: {
-			container: 'p',
+			container: 'body',
 			text: ['Das ging uns leider zu schnell.']
 		},
 		maxPrice: {
 			container: 'span[font-family="price"]',
-			euroFormat: false
+			euroFormat: false // Note: Saturn uses non-euroFromat as price seperator
 		},
-		outOfStock: [
-			{
-				container: '#root',
-				text: ['Dieser artikel ist aktuell nicht verfügbar.']
-			},
-			{
-				container: '#root',
-				text: ['Leider keine Lieferung möglich']
-			}
-		]
+		outOfStock: {
+			container: '#root',
+			text: ['dieser artikel ist aktuell nicht verfügbar.']
+		}
 	},
 	links: [
 		{
 			brand: 'test:brand',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://www.saturn.de/de/product/-2641856.html'
-		},
-		{
-			brand: 'asus',
-			model: 'dual',
-			series: '3060ti',
-			url: 'https://www.saturn.de/de/product/-2701239.html'
-		},
-		{
-			brand: 'zotac',
-			model: 'twin edge',
-			series: '3060ti',
-			url: 'https://www.saturn.de/de/product/-2704436.html'
+			url: 'https://www.saturn.de/de/product/-2592355.html'
 		},
 		{
 			brand: 'asus',
@@ -190,18 +171,6 @@ export const Saturn: Store = {
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url: 'https://www.saturn.de/de/product/-2661939.html'
-		},
-		{
-			brand: 'microsoft',
-			model: 'xbox series x',
-			series: 'xboxsx',
-			url: 'https://www.saturn.de/de/product/-2677360.html'
-		},
-		{
-			brand: 'microsoft',
-			model: 'xbox series s',
-			series: 'xboxss',
-			url: 'https://www.saturn.de/de/product/-2677359.html'
 		}
 	],
 	name: 'saturn'

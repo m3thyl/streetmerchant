@@ -15,23 +15,17 @@ export const Alternate: Store = {
 			container: 'div.price > span',
 			euroFormat: true
 		},
-		outOfStock: [
-			{
-				container: '.stockStatus',
-				text: ['liefertermin unbekannt']
-			},
-			{
-				container: '.stockStatus',
-				text: ['Artikel kann nicht gekauft werden']
-			}
-		]
+		outOfStock: {
+			container: '.stockStatus',
+			text: ['liefertermin unbekannt']
+		}
 	},
 	links: [
 		{
 			brand: 'test:brand',
 			model: 'test:model',
 			series: 'test:series',
-			url: 'https://www.alternate.de/product/1662088'
+			url: 'https://www.alternate.de/product/1516616'
 		},
 		{
 			brand: 'asus',
@@ -362,54 +356,6 @@ export const Alternate: Store = {
 			model: 'ps5 digital',
 			series: 'sonyps5de',
 			url: 'https://www.alternate.de/product/1651221'
-		},
-		{
-			brand: 'xfx',
-			model: 'merc',
-			series: 'rx6800xt',
-			url: 'https://www.alternate.de/product/1698792'
-		},
-		{
-			brand: 'sapphire',
-			model: 'nitro oc se',
-			series: 'rx6800xt',
-			url: 'https://www.alternate.de/product/1696478'
-		},
-		{
-			brand: 'sapphire',
-			model: 'nitro oc',
-			series: 'rx6800xt',
-			url: 'https://www.alternate.de/product/1696482'
-		},
-		{
-			brand: 'asus',
-			model: 'strix lc',
-			series: 'rx6800xt',
-			url: 'https://www.alternate.de/product/1695392'
-		},
-		{
-			brand: 'gigabyte',
-			model: 'gaming oc',
-			series: 'rx6800xt',
-			url: 'https://www.alternate.de/product/1697044'
-		},
-		{
-			brand: 'microsoft',
-			model: 'xbox series x',
-			series: 'xboxsx',
-			url: 'https://www.alternate.de/product/1675115'
-		},
-		{
-			brand: 'microsoft',
-			model: 'xbox series s',
-			series: 'xboxss',
-			url: 'https://www.alternate.de/product/1675117'
-		},
-		{
-			brand: 'sony',
-			model: 'ps5 console',
-			series: 'sonyps5c',
-			url: 'https://www.alternate.de/product/1676874'
 		}
 	],
 	name: 'alternate'
